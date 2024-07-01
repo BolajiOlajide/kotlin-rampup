@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     // nullable variable
     var job: String? = null
 
-    println("Hello world", name, age)
+    println("Hello world, $name, $age")
 
     // for loop
     for (i in 1..5) {
@@ -29,7 +29,8 @@ fun main(args: Array<String>) {
         count++
     } while (count < 0)
 
-    println(add(1, 2), " : add(1, 2)")
+    var stuff =add(1, 2)
+    println("$stuff : add(1, 2)")
 }
 
 fun add(a: Int, b: Int): Int {
