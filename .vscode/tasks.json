@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "Build",
             "type": "shell",
-            "command": "kotlinc src/main.kt -include-runtime -d main.jar",
+            "command": "kotlinc src/main.kt -include-runtime -d .bin/main.jar",
             "group": {
                 "kind": "build",
                 "isDefault": true
